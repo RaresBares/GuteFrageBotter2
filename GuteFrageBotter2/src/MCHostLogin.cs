@@ -30,8 +30,8 @@ namespace GuteFrageBotter2
             Thread.Sleep(2000);
 
 
-            driver.FindElement(By.Id("username")).SendKeys("rasahleanu@gmail.com");
-            driver.FindElement(By.Id("password")).SendKeys("rs05082005");
+            driver.FindElement(By.Id("username")).SendKeys("*******");
+            driver.FindElement(By.Id("password")).SendKeys("*******");
 
             driver.FindElement(By.XPath(" //*[@id=\"anmelden\"]/div/div/div[2]/div/div/div[2]/form/div[3]/button"))
                 .Click();
